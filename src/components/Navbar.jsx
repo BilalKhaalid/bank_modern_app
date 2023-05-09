@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className="w-full flex py-6 justify-between items-center ">
       {/* Below image tag will show the logo of hooBank and in className there is a specific width and height for that logo */}
-      <img src={logo} alt="hooBank" className={`w-[124px] h-[32px]`} />
+      <img src={logo} alt="hooBank" className={`w-[124px] h-[32px] cursor-pointer`} />
       {/* creating a un-ordered list for creating Navbar */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {/* mapping in from navLinks and giving a condition to provide margin-right on last nav element*/}
@@ -29,7 +29,7 @@ function Navbar() {
           //! src does this if someone click on navbar icon then show menu else show the navbar default close icon
           src={toggle ? close : menu}
           alt="menu"
-          className="w-[28px] h-[28px] object-contain"
+          className="w-[28px] h-[28px] object-contain cursor-pointer"
           onClick={() => settoggle((prev) => !prev)}
         />
         {/* creating this div for containing all the navbar menu items */}
