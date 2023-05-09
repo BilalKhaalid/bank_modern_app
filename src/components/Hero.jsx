@@ -7,7 +7,7 @@ const Hero = () => (
   <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
     {/* creating a div for logo image of discount section and the content of discount section */}
 
-    <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16`}>
+    <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
       {/* this div contains the discount logo image and its content which is placed by tailwind classes */}
       <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
         {/* Image contains discount logo */}
