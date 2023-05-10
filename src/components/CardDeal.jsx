@@ -8,7 +8,7 @@ const CardDeal = () => (
     {/* creating a div for containing heading and para for section info of cardDeal */}
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in a few easy
+        Find a better card<br className="sm:block hidden" /> deal  in a few easy
         steps.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-6`}>
