@@ -42,7 +42,7 @@ const Business = () => {
         <div className={layout.sectionInfo}>
           {/* heading of the business section */}
           <h2 className={`${styles.heading2} `}>
-            You do the business , <br className="sm:block hidden" /> we'll
+            You do the business<br className="sm:block hidden" /> we'll
             handle the money.
           </h2>
           {/* content para of business section */}
