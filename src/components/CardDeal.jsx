@@ -12,9 +12,7 @@ const CardDeal = () => (
         steps.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-6`}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-        laboriosam odit sit quibusdam rem excepturi ullam possimus autem qui
-        corrupti voluptatibus quis, ex ut!
+      Looking for a better card deal? Our platform simplifies the process of finding the ideal credit card that suits your needs. With just a few easy steps, you can discover better card options with enhanced features, rewards, and competitive rates.
       </p>
       {/* adding button i.e. call to action */}
       <Button styles={`mt-10`} />
