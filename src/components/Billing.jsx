@@ -24,9 +24,7 @@ const Billing = () => (
         invoicing.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-6`}>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, rerum
-        hic. Itaque laborum, temporibus voluptatibus animi ex quas, voluptates
-        est, explicabo aut doloribus quasi?
+      Our billing and invoicing solution provides a streamlined and user-friendly platform to help you efficiently manage your financial transactions. With our software, you can effortlessly generate and track invoices, automate billing processes, and maintain accurate records of your business transactions.
       </p>
       {/* creating the div below to have call to action buttons for app store and play store for downloading the app */}
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
